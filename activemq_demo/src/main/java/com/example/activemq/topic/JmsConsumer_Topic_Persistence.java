@@ -29,7 +29,7 @@ public class JmsConsumer_Topic_Persistence {
         connection.setClientID("z3");
 
         //3.通过连接，创建session会话     两个参数，第一个事务， 第二个签收
-        Session session = connection.createSession(false,AUTO_ACKNOWLEDGE);
+        Session session = connection.createSession(false,Session.AUTO_ACKNOWLEDGE);
 
         //4.创建目的地（队列还是主题） 指定主题的名字  也可以使用Destination接收，Topic这个接口继承自Destination  将生产的东西放到那里
         Topic topic = session.createTopic(TOPIC_NAME);

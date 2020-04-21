@@ -30,6 +30,13 @@
             <version>3.16</version>
         </dependency>
 
+        <!--  broker 的绑定  -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.5</version>
+        </dependency>
+
         <!--下面是junit和log4j等基础通用配置-->
         <dependency>
             <groupId>junit</groupId>
@@ -54,5 +61,7 @@
             <version>1.18.10</version>
             <scope>provided</scope>
         </dependency>-->
+
+
     </dependencies>
 </project>

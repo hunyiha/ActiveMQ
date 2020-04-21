@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="159bb5fc-e4c1-4421-b7cb-b36b90650b6e" name="Default Changelist" comment="" />
+    <list default="true" id="159bb5fc-e4c1-4421-b7cb-b36b90650b6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activemq_demo/src/main/java/com/example/activemq/queue/JmsConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/activemq_demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,31 +25,39 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="gitignore" value="1" />
-          <entry key="java" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="java" value="2" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="Git file" value="1" />
-          <entry key="JAVA" value="1" />
+          <entry key="Git file" value="2" />
+          <entry key="JAVA" value="2" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="692" />
+          <entry key="java" value="1085" />
+          <entry key="txt" value="3" />
           <entry key="xml" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="692" />
+          <entry key="JAVA" value="1085" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="110" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.revision" value="1" />
+          <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -55,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activemq_demo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
+            <state relative-caret-position="648">
               <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
             </state>
           </provider>
@@ -65,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activemq_demo/src/main/java/com/example/activemq/queue/JmsProduce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="15" column="80" lean-forward="true" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+            <state relative-caret-position="204">
+              <caret line="16" column="54" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,10 +87,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/activemq_demo/.gitignore">
+        <entry file="file://$PROJECT_DIR$/activemq_demo/src/main/java/com/example/activemq/queue/JmsConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="304">
+              <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,12 +112,21 @@
       <find>DEFAULT_BROKER_URL</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/activemq_demo/pom.xml" />
         <option value="$PROJECT_DIR$/activemq_demo/src/main/java/com/example/activemq/queue/JmsProduce.java" />
         <option value="$PROJECT_DIR$/activemq_demo/.gitignore" />
+        <option value="$PROJECT_DIR$/activemq_demo/src/main/java/com/example/activemq/queue/JmsConsumer.java" />
       </list>
     </option>
   </component>
@@ -137,7 +161,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="442" />
     <option name="y" value="292" />
     <option name="width" value="1346" />
@@ -170,6 +194,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -183,6 +208,32 @@
             <path>
               <item name="activemq" type="b2602c69:ProjectViewProjectNode" />
               <item name="activemq_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activemq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activemq_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activemq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activemq_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activemq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activemq_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activemq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activemq_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activemq" type="b2602c69:ProjectViewProjectNode" />
@@ -249,7 +300,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587446231317" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587448123228" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBootExamples" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -271,7 +322,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JmsProduce">
+    <configuration name="JmsConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.activemq.queue.JmsConsumer" />
+      <module name="activemq_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.activemq.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JmsProduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.activemq.queue.JmsProduce" />
       <module name="activemq_demo" />
@@ -285,9 +349,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.JmsProduce" />
+      <item itemvalue="Application.JmsConsumer" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.JmsProduce" />
+        <item itemvalue="Application.JmsConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -303,18 +372,18 @@
       <updated>1587441537942</updated>
       <workItem from="1587441539110" duration="735000" />
       <workItem from="1587442276712" duration="865000" />
-      <workItem from="1587443144789" duration="3084000" />
+      <workItem from="1587443144789" duration="4972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4684000" />
+    <option name="totallyTimeSpent" value="6572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1618" height="917" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16602564" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16602564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -327,7 +396,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="MyBatis Log" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -335,7 +404,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -394,9 +463,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/activemq_demo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/activemq_demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="648">
           <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
         </state>
       </provider>
@@ -404,18 +480,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/activemq_demo/src/main/java/com/example/activemq/queue/JmsProduce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="15" column="80" lean-forward="true" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+        <state relative-caret-position="204">
+          <caret line="16" column="54" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/activemq_demo/.gitignore">
+    <entry file="file://$PROJECT_DIR$/activemq_demo/src/main/java/com/example/activemq/queue/JmsConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -37,4 +37,11 @@
         </property>
     </bean>
 
+    <bean id="jmsContainer" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="jmsFactory"/>
+        <property name="destination" ref="destinationQueue"/>
+        <!--MyMessageListener需要实现MessageListener接口-->
+        <property name="messageListener" ref="myMessageListener"/>
+    </bean>
+
 </beans>

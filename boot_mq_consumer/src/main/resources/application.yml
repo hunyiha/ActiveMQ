@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  activemq:
+    broker-url: tcp://122.51.83.231:61616  #自己的MQ服务器地址
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: false    #告诉spring是队列还是主题   pub-sub是发布和订阅的意思 如果是false就是队列，是true就是主题 这一项如果不写就是默认false
+
+#自己定义队列名称
+myQueue: boot-active-queue
